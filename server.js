@@ -1,4 +1,4 @@
-const port = process.env.PORT;
+const port = process.env.PORT
 const io = require('socket.io')(port)
 
 console.log(port)
