@@ -1,4 +1,4 @@
-const socket = io("http://localhost:3000")
+const socket = io("http://localhost:80")
 const messageContainer = document.getElementById("messagecontainer") 
 const messageForm = document.getElementById("sendcontainer") 
 const messageInput = document.getElementById("messageinput")
